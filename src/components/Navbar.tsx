@@ -13,7 +13,7 @@ export default function Navbar() {
 
     <nav className='w-full bg-gray-800 items-center justify-between flex'>
      
-      <a className='ml-10' href="/"><Image className='w-25 text-2xl font-bold text-green-600 cursor-pointer h-22'  src={'/ehsan-img.png'} alt={''} width={2000} height={2000}/></a> 
+      <Link className='ml-10' href="/"><Image className='w-25 text-2xl font-bold text-green-600 cursor-pointer h-22'  src={'/ehsan-img.png'} alt={''} width={2000} height={2000}/></Link> 
         <ul className='flex gap-8 text-gray-700  font-medium'>
             <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/">Home</Link></li>
             <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/Services">Services</Link></li>
@@ -23,7 +23,7 @@ export default function Navbar() {
         </ul>
 
        
-        <a className='mr-15 text-white' href="/"><User /></a>
+        <Link className='mr-15 text-white' href="/"><User /></Link>
         
     </nav>
 
