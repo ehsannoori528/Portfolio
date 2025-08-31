@@ -10,10 +10,10 @@ export default function Home() {
       <span className="text-4xl font-bold font-serif">Hi</span>
       <span className="text-4xl font-bold font-serif">I am <span className="text-pink-500 font-serif">Ehsan</span></span>
       <h1 className="text-4xl font-bold font-serif">a Frontend Develper</h1>
-    <p className="w-170">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p className="break-words md:text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
     </div>
-    <Image className="w-80 rounded-full mt-30 mr-30" src={"/ehsanimg.jpg"} alt={""} width={800} height={800}/>
+    <Image className="w-80 rounded-full mt-30 mr-30 hover:scale-105 transition-transform duration-300 hidden md:block" src={"/ehsanimg.jpg"} alt={""} width={800} height={800}/>
    </div>
 
   );

@@ -11,13 +11,13 @@ export default function Navbar() {
 <div className='w-full items-center justify-between'>
 
 
-    <nav className='w-full bg-gray-800 items-center justify-between flex'>
+    <nav className='w-full bg-gray-800 items-center justify-between  hidden md:flex gap-4'>
      
       <Link className='ml-10' href="/"><Image className='w-25 text-2xl font-bold text-green-600 cursor-pointer h-22'  src={'/ehsan-img.png'} alt={''} width={2000} height={2000}/></Link> 
-        <ul className='flex gap-8 text-gray-700  font-medium'>
+        <ul className='flex gap-8 text-gray-700  font-medium '>
             <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/">Home</Link></li>
             <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/Services">Services</Link></li>
-            <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/">Projects</Link></li>
+            <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/Projects">Projects</Link></li>
             <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/about">About</Link></li>
             <li className="hover:text-pink-200 hover:scale-120 text-white cursor-pointer transition" ><Link href="/Contact">Contact</Link></li>
         </ul>

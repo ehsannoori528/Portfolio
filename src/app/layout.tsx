@@ -5,6 +5,8 @@ import Home from "./page";
 
 
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -13,8 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-           <Navbar />
-        
+          <Navbar />
         {children}
       </body>
     </html>
